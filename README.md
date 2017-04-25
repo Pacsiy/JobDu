@@ -5,7 +5,7 @@
 *   [题目1001：A+B for Matrices(简单循环)](#-题目1001A+BforMatrices)
 *	[题目1002：Grading(简单判断)](#-题目1002grading)
 *   [题目1003：A+B(字符串转数字)](#-题目1003A+B)
-*   [题目1004：Median(查找中位数)](题目1004Median)
+*   [题目1004：Median(查找中位数)](#-题目1004Median)
 
 ## Detail
 
