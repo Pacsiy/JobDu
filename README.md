@@ -10,7 +10,7 @@
 ## Detail
 
 
-#### <font color = Green> <span id="1002">题目1000：计算a+b</span></font>
+#### <br><font color = Green size=6> <span id="1002">题目1000：计算a+b</span></font>
 #### Jobdu Link:<br>
 [http://ac.jobdu.com/problem.php?pid=1000](http://ac.jobdu.com/problem.php?pid=1000)
 #### Problem description:<br>
@@ -22,7 +22,7 @@
 ## [Back to list](#list)
 
 
-#### <font color = Green> <span id="1001">题目1001：A+B for Matrices</span></font>
+#### <br><font color = Green size=6> <span id="1001">题目1001：A+B for Matrices</span></font>
 #### Jobdu Link:<br>
 [http://ac.jobdu.com/problem.php?pid=1001](http://ac.jobdu.com/problem.php?pid=1001)
 #### Problem description:<br>
@@ -34,7 +34,7 @@
 ## [Back to list](#list)
 
 
-#### <font color = Green> <span id="1002">题目1002：Grading</span></font>
+#### <br><font color = Green size=6> <span id="1002">题目1002：Grading</span></font>
 #### Jobdu Link:<br>
 [http://ac.jobdu.com/problem.php?pid=1002](http://ac.jobdu.com/problem.php?pid=1002)
 #### Problem description:<br>
