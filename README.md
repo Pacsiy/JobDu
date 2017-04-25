@@ -2,7 +2,7 @@
 从4月23日开始学习，努力把自己变得更好。
 ## List
 *   [题目1000：计算a+b(简单测试)](#-题目1000计算a+b)
-*   [题目1001：A+B for Matrices(简单循环)](#-题目1001A+B for Matrices)
+*   [题目1001：A+B for Matrices(简单循环)](#-题目1001A+BforMatrices)
 *	[题目1002：Grading(简单判断)](#-题目1002grading)
 
 
