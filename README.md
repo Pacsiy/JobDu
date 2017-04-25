@@ -10,7 +10,7 @@
 ## Detail
 
 
-#### <br><font color = Green size=5> <span id="1002">题目1000：计算a+b</span></font>
+#### <font color = Green size=5> <span id="1002">题目1000：计算a+b</span></font>
 #### Jobdu Link:<br>
 [http://ac.jobdu.com/problem.php?pid=1000](http://ac.jobdu.com/problem.php?pid=1000)
 #### Source code:<br>
@@ -22,7 +22,7 @@
 ## [Back to list](#list)
 
 
-#### <br><font color = Green size=5> <span id="1001">题目1001：A+B for Matrices</span></font>
+#### <font color = Green size=5> <span id="1001">题目1001：A+B for Matrices</span></font>
 #### Jobdu Link:<br>
 [http://ac.jobdu.com/problem.php?pid=1001](http://ac.jobdu.com/problem.php?pid=1001)
 #### Source code:<br>
@@ -34,24 +34,28 @@
 ## [Back to list](#list)
 
 
-#### <br><font color = Green size=5> <span id="1002">题目1002：Grading</span></font>
+#### <font color = Green size=5> <span id="1002">题目1002：Grading</span></font>
 #### Jobdu Link:<br>
 [http://ac.jobdu.com/problem.php?pid=1002](http://ac.jobdu.com/problem.php?pid=1002)
 #### Source code:<br>
 [http://www.cnblogs.com/AlvinZH/p/6759757.html](http://www.cnblogs.com/AlvinZH/p/6759757.html)
 #### Problem description:<br>
 >题目背景为高考试卷批改打分制度。<br>
->对于每一道题，至少需要两位评审老师进行打分，当两个老师的打分结果相差在可接受范围内，那么该题最终得分为两位老师所给分数的平均分。<br>
+>对于每一道题，至少需要两位评审老师进行打分，
+当两个老师的打分结果相差在可接受范围内，那么该题最终得分为两位老师所给分数的平均分。<br>
 >当打分相差较大超过可接受范围时，需要第三位评审老师打分。<br>
->如果第三位评审老师所给分数之和其中一位老师所给分数相差在可接受范围内，则最终分数为这两位老师所给分数的平均分。<br>
->如果第三位老师所给分数和前面两位老师所给分数之差均为可接受范围内，则最终分数取三位老师所给分数的最高分。<br>
->如果第三位老师所给分数和前面两位所给分数之差均超过可接受范围，则需要第四位评审老师给出分数，最终分数为第四位老师所给分数。
+>如果第三位评审老师所给分数之和其中一位老师所给分数相差在可接受范围内，
+则最终分数为这两位老师所给分数的平均分。<br>
+>如果第三位老师所给分数和前面两位老师所给分数之差均为可接受范围内，
+则最终分数取三位老师所给分数的最高分。<br>
+>如果第三位老师所给分数和前面两位所给分数之差均超过可接受范围，
+则需要第四位评审老师给出分数，最终分数为第四位老师所给分数。
 #### <font color = Blue size = 5> Analysis:</font>
 >原题目为英文，看懂题目就很简单了，一个一个分别判断。注意使用类型为double。并要注意输出精确到小数点后一位，使用`printf("%.1lf\n",ans);`
 ## [Back to list](#list)
 
 
-#### <br><font color = Green size=5> <span id="1003">题目1003：A+B</span></font>
+#### <font color = Green size=5> <span id="1003">题目1003：A+B</span></font>
 #### Jobdu Link:<br>
 [http://ac.jobdu.com/problem.php?pid=1003](http://ac.jobdu.com/problem.php?pid=1003)
 #### Source code:<br>
@@ -65,7 +69,7 @@
 ## [Back to list](#list)
 
 
-#### <br><font color = Green size=5> <span id="1003">题目1004：Median</span></font>
+#### <font color = Green size=5> <span id="1003">题目1004：Median</span></font>
 #### Jobdu Link:<br>
 [http://ac.jobdu.com/problem.php?pid=1004](http://ac.jobdu.com/problem.php?pid=1004)
 #### Source code:<br>
@@ -75,5 +79,9 @@
 #### <font color = Blue size = 5> Analysis:</font>
 >这个问题有很多种解法，题目放的也很松。<br>
 >第一种解法：暴力。直接把两个子串读进一个数组，sort一下取中位数。真是暴力。<br>
->第二种解法：读入两个子串A、B后，再开另外一个数组C，用两个索引依次按次序放入C，再求中位数。
+>第二种解法：读入两个子串A、B后，再开另外一个数组C，用两个索引依次按次序放入C，再求中位数。<br>
+>第三种解法：直接用两个索引p、q指向两个数组的开头，索引的移动可以理解为丢掉前面的数。
+通过分析我们知道，索引移动次数为(n+m-1)/2，我们要找的中位数就是min(A[p],B[q])。<br>
+>注意：解法二三里面有一个坑点，就是可能其中一个索引到头了，这时候只能移动另一个索引了，
+最后我们的中位数也是A[p]或者B[q]了，数组越界取值可不行。
 ## [Back to list](#list)
