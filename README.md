@@ -10,7 +10,7 @@
 ## Detail
 
 
-#### <font color = Green size=5> <span id="1002">题目1000：计算a+b</span></font>
+#### <font color = Green size=5> <span id="1000">题目1000：计算a+b</span></font>
 #### Jobdu Link:<br>
 [http://ac.jobdu.com/problem.php?pid=1000](http://ac.jobdu.com/problem.php?pid=1000)
 #### Source code:<br>
@@ -69,7 +69,7 @@
 ## [Back to list](#list)
 
 
-#### <font color = Green size=5> <span id="1003">题目1004：Median</span></font>
+#### <font color = Green size=5> <span id="1004">题目1004：Median</span></font>
 #### Jobdu Link:<br>
 [http://ac.jobdu.com/problem.php?pid=1004](http://ac.jobdu.com/problem.php?pid=1004)
 #### Source code:<br>
