@@ -6,6 +6,7 @@
 *	[题目1002：Grading(简单判断)](#-题目1002grading)
 *   [题目1003：A+B(字符串转数字)](#-题目1003ab)
 *   [题目1004：Median(查找中位数)](#-题目1004median)
+*   [题目1005：Graduate Admission](#-题目1005graduateadmission)
 
 ## Detail
 
@@ -84,4 +85,36 @@
 通过分析我们知道，索引移动次数为(n+m-1)/2，我们要找的中位数就是min(A[p],B[q])。<br>
 >注意：解法二三里面有一个坑点，就是可能其中一个索引到头了，这时候只能移动另一个索引了，
 最后我们的中位数也是A[p]或者B[q]了，数组越界取值可不行。
+## [Back to list](#list)
+
+#### <font color = Green size=5> <span id="1005">题目1005：Graduate Admission</span></font>
+#### Jobdu Link:<br>
+[http://ac.jobdu.com/problem.php?pid=1005](http://ac.jobdu.com/problem.php?pid=1005)
+#### Source code:<br>
+[http://www.cnblogs.com/AlvinZH/p/6771713.html](http://www.cnblogs.com/AlvinZH/p/6771713.html)
+#### Problem description:<br>
+>这道题理解题意有些麻烦，多看几遍先理解题意再说。<br>
+>每个学生有自己的三个成绩，一个编号，以及一个志愿列表。<br>
+>每个学校有自己的招生人数限制。<br>
+>按要求输出每所学校最后的招生情况。<br>
+#### <font color = Blue size = 5> Analysis:</font>
+>我们按照题目要求一个一个来。使用两个结构体分别为Student和School。<br>
+><pre>
+>typedef struct Student{
+>     int id;
+>     int GE;
+>     int GI;
+>     double Final;
+>     int choice[6];
+> }Student;
+> typedef struct School{
+>     int now;//已招人数
+>     int Max;//最大人数
+>     vector<int> admit;
+> }School;
+></pre>
+>把所有的信息输入之后，对学生进行排序，需要重写sort函数的比较函数。<br>
+>在录取过程中，所限判断已录取人数和最大录取人数，如果都是0，那别录了直接break。(这是个坑点)<br>
+>如果人没录满，那么就录吧，如果已经录满，那么拿出前一个录取人的信息进行比较，相同也可以录进去。<br>
+>另外一个坑点在于输出格式~
 ## [Back to list](#list)

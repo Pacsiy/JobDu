@@ -1,5 +1,6 @@
 //
-// Created by Administrator on 2017/4/24.
+// Created by AlvinZH on 2017/4/27.
+// Copyright (c) AlvinZH. All rights reserved.
 //
 
 #include <iostream>
@@ -78,13 +79,9 @@ int main()
             }
         }
 
-        for(int i=0;i<m;i++)
-        {
+        for(int i=0;i<m;i++)//实际ID还原
             for(int j=0;j<Sch[i].now;j++)
-            {
                 Sch[i].admit[j]=Stu[Sch[i].admit[j]].id;
-            }
-        }
 
         for(int i=0;i<m;i++)
         {
