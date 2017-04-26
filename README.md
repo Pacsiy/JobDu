@@ -6,7 +6,7 @@
 *	[题目1002：Grading(简单判断)](#-题目1002grading)
 *   [题目1003：A+B(字符串转数字)](#-题目1003ab)
 *   [题目1004：Median(查找中位数)](#-题目1004median)
-*   [题目1005：Graduate Admission](#-题目1005graduateadmission)
+*   [题目1005：Graduate Admission(结构体排序)](#-题目1005graduate-admission)
 
 ## Detail
 
