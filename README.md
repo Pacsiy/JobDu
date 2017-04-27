@@ -7,7 +7,7 @@
 *   [题目1003：A+B(字符串转数字)](#-题目1003ab)
 *   [题目1004：Median(查找中位数)](#-题目1004median)
 *   [题目1005：Graduate Admission(结构体排序)](#-题目1005graduate-admission)
-
+*   [题目1006：ZOJ问题(字符串处理)](#-题目1006zoj问题)
 ## Detail
 
 
@@ -117,4 +117,20 @@
 >在录取过程中，所限判断已录取人数和最大录取人数，如果都是0，那别录了直接break。(这是个坑点)<br>
 >如果人没录满，那么就录吧，如果已经录满，那么拿出前一个录取人的信息进行比较，相同也可以录进去。<br>
 >另外一个坑点在于输出格式~
+## [Back to list](#list)
+
+#### <font color = Green size=5> <span id="1006">题目1006：ZOJ问题</span></font>
+#### Jobdu Link:<br>
+[http://ac.jobdu.com/problem.php?pid=1006](http://ac.jobdu.com/problem.php?pid=1006)
+#### Source code:<br>
+[http://www.cnblogs.com/AlvinZH/p/6774968.html](http://www.cnblogs.com/AlvinZH/p/6774968.html)
+#### Problem description:<br>
+>输入一个只包含'z','o','j'三种字符的字符串，判断是否符合要求。
+#### <font color = Blue size = 5> Analysis:</font>
+>分析AC的三个条件，用a、b、c代表<a'z'b'j'c>中'o'的数量。<br>
+>条件一是(0,1,0)，条件二是(x,1,x)，把条件二代入条件三，可以得到(x,2,2x)满足条件，继续代入会有(x,3,3x)...<br>
+>于是我们发现一个问题，那就是a*b=c，注意b>0。
+>注意事项：<br>
+>①：判断字符串里面只有一个z一个j，且z在j后面。<br>
+>②：中间有任何不符合要求的直接结束即可。
 ## [Back to list](#list)
