@@ -8,6 +8,7 @@
 *   [题目1004：Median(查找中位数)](#-题目1004median)
 *   [题目1005：Graduate Admission(结构体排序)](#-题目1005graduate-admission)
 *   [题目1006：ZOJ问题(字符串处理)](#-题目1006zoj问题)
+*   [题目1007：奥运排序问题(结构体排序)](#-题目1007奥运排序问题)
 ## Detail
 
 
@@ -129,8 +130,20 @@
 #### <font color = Blue size = 5> Analysis:</font>
 >分析AC的三个条件，用a、b、c代表<a'z'b'j'c>中'o'的数量。<br>
 >条件一是(0,1,0)，条件二是(x,1,x)，把条件二代入条件三，可以得到(x,2,2x)满足条件，继续代入会有(x,3,3x)...<br>
->于是我们发现一个问题，那就是a*b=c，注意b>0。
+>于是我们发现一个问题，那就是a*b=c，注意b>0。<br>
 >注意事项：<br>
 >①：判断字符串里面只有一个z一个j，且z在j后面。<br>
 >②：中间有任何不符合要求的直接结束即可。
+## [Back to list](#list)
+
+#### <font color = Green size=5> <span id="1007">题目1007：奥运排序问题</span></font>
+#### Jobdu Link:<br>
+[http://ac.jobdu.com/problem.php?pid=1007](http://ac.jobdu.com/problem.php?pid=1007)
+#### Source code:<br>
+[http://www.cnblogs.com/AlvinZH/p/6784616.html](http://www.cnblogs.com/AlvinZH/p/6784616.html)
+#### Problem description:<br>
+>每个国家根据金牌总数、奖牌总数、金牌人口比例、奖牌人口比例会有四种排序，找到最佳排名。
+#### <font color = Blue size = 5> Analysis:</font>
+>我们用结构体吧每个国家的信息存下来，在进行处理。<br>
+>我们根据四种不同的排序方式计算得出四种排名，记得最后再把国家按照最大是的顺序排回来(事先用id属性记下序号)<br>
 ## [Back to list](#list)
