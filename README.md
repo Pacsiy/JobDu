@@ -146,4 +146,5 @@
 #### <font color = Blue size = 5> Analysis:</font>
 >我们用结构体吧每个国家的信息存下来，在进行处理。<br>
 >我们根据四种不同的排序方式计算得出四种排名，记得最后再把国家按照最大是的顺序排回来(事先用id属性记下序号)<br>
+>有关于sort函数使用详解请参考：[http://www.cnblogs.com/AlvinZH/p/6784862.html](http://www.cnblogs.com/AlvinZH/p/6784862.html)
 ## [Back to list](#list)
