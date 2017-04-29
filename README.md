@@ -9,6 +9,7 @@
 *   [题目1005：Graduate Admission(结构体排序)](#-题目1005graduate-admission)
 *   [题目1006：ZOJ问题(字符串处理)](#-题目1006zoj问题)
 *   [题目1007：奥运排序问题(结构体排序)](#-题目1007奥运排序问题)
+*   [题目1008：最短路径问题](#-题目1008最短路径问题)
 ## Detail
 
 
@@ -147,4 +148,16 @@
 >我们用结构体吧每个国家的信息存下来，在进行处理。<br>
 >我们根据四种不同的排序方式计算得出四种排名，记得最后再把国家按照最大是的顺序排回来(事先用id属性记下序号)<br>
 >有关于sort函数使用详解请参考：[http://www.cnblogs.com/AlvinZH/p/6784862.html](http://www.cnblogs.com/AlvinZH/p/6784862.html)
+## [Back to list](#list)
+
+#### <font color = Green size=5> <span id="1008">题目1008：最短路径问题</span></font>
+#### Jobdu Link:<br>
+[http://ac.jobdu.com/problem.php?pid=1008](http://ac.jobdu.com/problem.php?pid=1008)
+#### Source code:<br>
+[http://www.cnblogs.com/AlvinZH/p/6784616.html](http://www.cnblogs.com/AlvinZH/p/6784616.html)
+#### Problem description:<br>
+>典型的单源最短路径问题，可以使用多种方法完成。
+#### <font color = Blue size = 5> Analysis:</font>
+>采用SPFA算法，注意在相同长度是去最小花费，多了一次比较而已。<br>
+>最短路径四种算法比较：[http://blog.csdn.net/hjd_love_zzt/article/details/26739593](http://blog.csdn.net/hjd_love_zzt/article/details/26739593)
 ## [Back to list](#list)
