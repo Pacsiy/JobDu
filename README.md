@@ -158,6 +158,6 @@
 #### Problem description:<br>
 >典型的单源最短路径问题，可以使用多种方法完成。
 #### <font color = Blue size = 5> Analysis:</font>
->采用SPFA算法，注意在相同长度是去最小花费，多了一次比较而已。<br>
->最短路径四种算法比较：[http://blog.csdn.net/hjd_love_zzt/article/details/26739593](http://blog.csdn.net/hjd_love_zzt/article/details/26739593)
+>采用SPFA算法，注意在相同长度时取最小花费，多了一次比较而已。<br>
+>最短路径四种算法详解：[http://www.cnblogs.com/AlvinZH/p/6789912.html](http://www.cnblogs.com/AlvinZH/p/6789912.html)
 ## [Back to list](#list)
