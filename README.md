@@ -163,7 +163,7 @@
 >最短路径四种算法详解：[http://www.cnblogs.com/AlvinZH/p/6789912.html](http://www.cnblogs.com/AlvinZH/p/6789912.html)
 ## [Back to list](#list)
 
-#### <font color = Green size=5> <span id="1010">题目1010：A + B</span></font>
+#### <font color = Green size=5> <span id="1010">题目1010：A+B</span></font>
 #### Jobdu Link:<br>
 [http://ac.jobdu.com/problem.php?pid=1010](http://ac.jobdu.com/problem.php?pid=1010)
 #### Source code:<br>
