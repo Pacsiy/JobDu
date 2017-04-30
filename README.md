@@ -10,6 +10,7 @@
 *   [题目1006：ZOJ问题(字符串处理)](#-题目1006zoj问题)
 *   [题目1007：奥运排序问题(结构体排序)](#-题目1007奥运排序问题)
 *   [题目1008：最短路径问题](#-题目1008最短路径问题)
+*   [题目1010：A + B(字符串拆分)](#-题目1010ab)
 ## Detail
 
 
@@ -160,4 +161,16 @@
 #### <font color = Blue size = 5> Analysis:</font>
 >采用SPFA算法，注意在相同长度时取最小花费，多了一次比较而已。<br>
 >最短路径四种算法详解：[http://www.cnblogs.com/AlvinZH/p/6789912.html](http://www.cnblogs.com/AlvinZH/p/6789912.html)
+## [Back to list](#list)
+
+#### <font color = Green size=5> <span id="1008">题目1008：最短路径问题</span></font>
+#### Jobdu Link:<br>
+[http://ac.jobdu.com/problem.php?pid=1010](http://ac.jobdu.com/problem.php?pid=1010)
+#### Source code:<br>
+[http://www.cnblogs.com/AlvinZH/p/6790325.html](http://www.cnblogs.com/AlvinZH/p/6790325.html)
+#### Problem description:<br>
+>给我们一行标准的字符串，把它拆开转换就可以了。
+#### <font color = Blue size = 5> Analysis:</font>
+>本题的难点在于拆开字符串。由于在C++里面是没有spilit函数的，但是它有strtok函数，我们可以自己协议标准的spilit函数。<br>
+>字符串分割strtok函数详解：[http://blog.csdn.net/mycwq/article/details/14648011](http://blog.csdn.net/mycwq/article/details/14648011)
 ## [Back to list](#list)

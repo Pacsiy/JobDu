@@ -1,5 +1,6 @@
 //
-// Created by Administrator on 2017/4/24.
+// Created by AlvinZH on 2017/4/30.
+// Copyright (c) AlvinZH. All rights reserved.
 //
 
 #include <iostream>
