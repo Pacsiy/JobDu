@@ -11,6 +11,7 @@
 *   [题目1007：奥运排序问题(结构体排序)](#-题目1007奥运排序问题)
 *   [题目1008：最短路径问题(SPFA算法)](#-题目1008最短路径问题)
 *   [题目1010：A + B(字符串拆分)](#-题目1010ab)
+*   [题目1011：最大连续子序列](#-题目1011最大连续子序列)
 ## Detail
 
 
@@ -173,4 +174,16 @@
 #### <font color = Blue size = 5> Analysis:</font>
 >本题的难点在于拆开字符串。由于在C++里面是没有spilit函数的，但是它有strtok函数，我们可以自己协议标准的spilit函数。<br>
 >字符串分割strtok函数详解：[http://blog.csdn.net/mycwq/article/details/14648011](http://blog.csdn.net/mycwq/article/details/14648011)
+## [Back to list](#list)
+
+#### <font color = Green size=5> <span id="1011">题目1011：最大连续子序列</span></font>
+#### Jobdu Link:<br>
+[http://ac.jobdu.com/problem.php?pid=1011](http://ac.jobdu.com/problem.php?pid=1011)
+#### Source code:<br>
+[http://www.cnblogs.com/AlvinZH/p/6794702.html](http://www.cnblogs.com/AlvinZH/p/6794702.html)
+#### Problem description:<br>
+>给定一个数组，让我们求它的最大连续子序列。
+#### <font color = Blue size = 5> Analysis:</font>
+>运用动态规划是最快的方法QAQ<br>
+>最大子序列和方法：[http://www.cnblogs.com/AlvinZH/p/6795647.html](http://www.cnblogs.com/AlvinZH/p/6795647.html)
 ## [Back to list](#list)
